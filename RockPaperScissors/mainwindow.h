@@ -18,6 +18,10 @@ public:
 private slots:
     void on_choiceRock_clicked();
 
+    void on_choicePaper_clicked();
+
+    void on_choiceScissors_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

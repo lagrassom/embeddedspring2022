@@ -18,3 +18,13 @@ void MainWindow::on_choiceRock_clicked()
 {
     ui->playerChoice->setText("You Chose Rock");
 }
+
+void MainWindow::on_choicePaper_clicked()
+{
+    ui->playerChoice->setText("You Chose Paper");
+}
+
+void MainWindow::on_choiceScissors_clicked()
+{
+    ui->playerChoice->setText("You Chose Scissors");
+}
